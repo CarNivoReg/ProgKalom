@@ -1,6 +1,6 @@
 using System;
 
-namespace MyApplication
+namespace Vizvary.Gergely.11D.20200121
 {
    public class Program
     {
