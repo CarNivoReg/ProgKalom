@@ -1,0 +1,35 @@
+using System;
+
+namespace MyApplication
+{
+   public class Program
+    {
+        public static int[] tomb;
+        public static int Mh;
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Mennyire legyen hosszú a tömb?");
+            Mh = Convert.ToInt32(Console.ReadLine());
+            tomb = new int[Mh];
+            for (int x = 0; x < tomb.Length; x++)
+            {
+                _ = new Malph();
+                tomb[x] = Malph.randSz;
+            }
+            Console.WriteLine("Rendezettlen tömb:");
+            for (int x = 0; x < Mh; i++)
+            {
+                Console.Write(tomb[x] + " ");               
+            }
+            Console.WriteLine();
+            Yasuo.Rend();
+            Console.WriteLine("Rendezett tömb:");
+            for (int x = 0; x < Mh; x++)
+            {
+                Console.Write(tomb[x] + " ");
+            }
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+    }
+}
