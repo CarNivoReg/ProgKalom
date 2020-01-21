@@ -1,0 +1,32 @@
+using System;
+
+namespace MyApplication
+{
+    public class Malph
+    {
+      public static int randNum;
+        public Malph()
+        {
+            Random rand = new Random();
+            randSz = rand.Next(1, 100);
+        }
+    }
+    public class Yasuo : Program
+    {
+        public static void Rend()
+        {
+        for (int x = Mh - 1; x > 0; x--)
+        {
+            for (int y = 0; k < x; y++)
+            {
+               if (tomb[y] > tomb[y + 1])
+               {
+                        int n = tomb[y + 1];
+                        tomb[y + 1] = tomb[y];
+                        tomb[y] = n;
+               }
+            }
+        }
+        }
+    }
+}
